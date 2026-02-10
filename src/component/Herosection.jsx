@@ -3,8 +3,6 @@ import React from "react";
 const Herosection = () => {
   return (
     <section className="relative h-screen overflow-hidden">
-      ```
-      
       <div className="absolute inset-0 -z-20">
         <img
           src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-bg.jpg"
@@ -12,9 +10,9 @@ const Herosection = () => {
           className="w-full h-full object-cover scale-110"
         />
       </div>
-     
+
       <div className="absolute inset-0 bg-black/50 -z-10"></div>
-      
+
       <div className="fixed right-0 top-1/2 -translate-y-1/2 z-50 flex flex-col gap-3">
         <button className="bg-blue-600 text-white py-3 px-7 shadow-lg">
           Buy Now
@@ -24,7 +22,7 @@ const Herosection = () => {
           Customize
         </button>
       </div>
-      
+
       <header className="absolute top-3 left-0 w-full z-40">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-8 py-6">
           <img
@@ -45,7 +43,7 @@ const Herosection = () => {
           </button>
         </div>
       </header>
-     
+
       <div className="relative z-10 h-full flex items-center justify-center text-center px-6">
         <div className="max-w-6xl mx-auto mt-20">
           <h1 className="font-semibold text-5xl md:text-7xl lg:text-8xl leading-tight text-white">
