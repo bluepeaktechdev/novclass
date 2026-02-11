@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Engagement = () => {
   return (
-    <div className="h-screen">
+    <div className="">
       <article>
         <div className="grid grid-cols-3 gap-4 divide-x w-[90%] rounded-3xl bg-amber-200 mx-auto -mt-20 ">
           <Card

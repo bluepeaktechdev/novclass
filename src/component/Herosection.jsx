@@ -2,12 +2,12 @@ import React from "react";
 
 const Herosection = () => {
   return (
-    <section className="relative h-screen overflow-hidden">
-      <div className="absolute inset-0 -z-20">
+    <section className="relative object-cover h-screen overflow-hidden bg-cover w-full bg-center">
+      <div className="absolute inset-3 -z-20">
         <img
           src="https://websitedemos.net/non-profit-organization-04/wp-content/uploads/sites/1476/2023/06/home-bg.jpg"
           alt="background"
-          className="w-full h-full object-cover scale-110"
+          className=" "
         />
       </div>
 
@@ -46,7 +46,7 @@ const Herosection = () => {
 
       <div className="relative z-10 h-full flex items-center justify-center text-center px-6">
         <div className="max-w-6xl mx-auto mt-20">
-          <h1 className="font-semibold text-5xl md:text-7xl lg:text-8xl leading-tight text-white">
+          <h1 className="font-semibold text-5xl md:text-7xl lg:text-8xl leading-tight md:text-white text-blue-700">
             Empowering Change, One Step at a Time
           </h1>
 
