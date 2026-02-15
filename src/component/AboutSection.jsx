@@ -1,9 +1,12 @@
 import React from "react";
+import Aboutus from "./Aboutus";
 
 const AboutSection = () => {
   return (
+
     <section className="py-24 bg-[#F7F9F1]">
-      <div className="px-8">
+     <Aboutus></Aboutus>
+      <div className="px-8 mt-23">
      
         <div className="grid lg:grid-cols-2 gap-16 items-center">
         

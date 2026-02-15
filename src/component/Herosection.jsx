@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 const Herosection = () => {
   return (
@@ -60,6 +61,8 @@ const Herosection = () => {
           </button>
         </div>
       </div>
+
+      
     </section>
   );
 };
